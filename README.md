@@ -4,7 +4,7 @@ setq markdown-xhtml-header-content
   width: 33.33%;
   padding: 5px;
 }
-</style>")
+</style>"
 
 # Bachelorarbeit Medizininformatik
 ##### Eberhard Karls Universität Tübingen
