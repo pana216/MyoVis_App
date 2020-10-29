@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gI0-xg-FOG">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Einstellungen-->
+        <scene sceneID="zQH-wa-4Ib">
+            <objects>
+                <navigationController id="gI0-xg-FOG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Einstellungen" image="settings" selectedImage="settings" id="R0q-4C-KgH"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Db1-bW-Aio">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Cij-RL-Tw6" kind="relationship" relationship="rootViewController" id="5KW-22-MdU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZsE-FQ-K8e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-891" y="100"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="vxM-LJ-WUg">
+            <objects>
+                <viewController id="Cij-RL-Tw6" customClass="SettingsVC" customModule="MyoVis" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IgY-aR-TAl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPx-JJ-0Tj">
+                                <rect key="frame" x="10" y="84" width="145" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Aqy-kW-gez"/>
+                                </constraints>
+                                <state key="normal" title="Test für kombinatorik"/>
+                                <connections>
+                                    <segue destination="d3k-AU-7Sh" kind="show" id="Nad-5a-cPz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.2156862745" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YPx-JJ-0Tj" firstAttribute="top" secondItem="9zy-9H-V9C" secondAttribute="top" constant="20" id="J6W-RW-oW5"/>
+                            <constraint firstItem="YPx-JJ-0Tj" firstAttribute="leading" secondItem="IgY-aR-TAl" secondAttribute="leading" constant="10" id="a2F-eU-MOn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9zy-9H-V9C"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Settings" id="B7f-Ny-byj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IpZ-ox-Osl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-84" y="98.50074962518741"/>
+        </scene>
+        <!--Kombinatorik-->
+        <scene sceneID="hJw-A4-LZm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Kombinatorik" id="d3k-AU-7Sh" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GaF-9c-ffX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="494" y="99"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="settings" width="30" height="30"/>
+    </resources>
+</document>

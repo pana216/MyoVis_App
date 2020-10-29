@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>520378147423-u6e9pejpqfiia6vk39ehonp5nr1159tv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.520378147423-u6e9pejpqfiia6vk39ehonp5nr1159tv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCXnyEuw9MdUSUux82bEmTfQQ1FHckbW74</string>
+	<key>GCM_SENDER_ID</key>
+	<string>520378147423</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>panagiotis.diakas.MyoVis</string>
+	<key>PROJECT_ID</key>
+	<string>myovis-17ed4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>myovis-17ed4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:520378147423:ios:17928877d9a235cf</string>
+	<key>DATABASE_URL</key>
+	<string>https://myovis-17ed4.firebaseio.com</string>
+</dict>
+</plist>
