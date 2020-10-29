@@ -13,7 +13,7 @@ Das Bankdrücken ist eine beliebte Ubung im Krafttraining und Teil des Kraftdrei
 Die MyoVis iOS App hat zwei Grundlegende Funktionen. Den eigentlichen Optimierungsprozess und die Visualisierung der vergangenen Optimierungen.
 Eine neue Optimierung wird durch Eingabe der Benutzerdaten auf dem Startbildschirm gestartet. Die Historie kann durch Anklicken der Registerkarte “Datenbank“, in der unteren Navigationsleiste eingesehen werden. 
 
-<p float="center">
+<p float="none">
     <img src="/Screenshots/screenshot_home.png" width="25%">
     <img src="/Screenshots/screenshot_db.png" width="25%">
     <img src="/Screenshots/screenshot_graph.png" width="25%">
