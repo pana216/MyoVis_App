@@ -11,7 +11,9 @@ Das Bankdrücken ist eine beliebte Ubung im Krafttraining und Teil des Kraftdrei
 Die MyoVis iOS App hat zwei Grundlegende Funktionen. Den eigentlichen Optimierungsprozess und die Visualisierung der vergangenen Optimierungen.
 Eine neue Optimierung wird durch Eingabe der Benutzerdaten auf dem Startbildschirm gestartet. Die Historie kann durch Anklicken der Registerkarte “Datenbank“, in der unteren Navigationsleiste eingesehen werden. 
 
-<img src="/Screenshots/screenshot_home.png" width="40%">
+<img src="/Screenshots/screenshot_home.png" width="25%">
+<img src="/Screenshots/screenshot_db.png" width="25%">
+<img src="/Screenshots/screenshot_graph.png" width="25%">
 
 Die Daten können, bei Einsicht der Datenbank, in eine CSV-Datei exportiert und genauer untersucht werden.
 Das eingehende Signal wird am Myoware-Sensor während der Bewegung registriert und an den Mikrocontroller gesendet. Der Mikrocontroller erfasst die Signale aller vier Sensoren an den entsprechenden Pins und speichert sie in der Characteristic ab. Der Client ist mit dem Server verbunden und hat diese Characteristic abonniert, wodurch er alle 50 ms über den neuen Wert informiert wird. Beim Empfang des Signals wird der Wert an den jeweiligen View-Controller weitergeleitet. Dort wird der Graph aktualisiert und der Wert in der jeweiligen Stage unter dem User-Model gespeichert. Nach beenden der aktuellen Stage werden die Werte in der Cloud gespeichert.
