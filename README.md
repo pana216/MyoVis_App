@@ -1,5 +1,3 @@
-# MyoVis_App
+# Bachelorarbeit Medizininformatik
 
-## Bachelorarbeit Medizininformatik
-
-#### MyoVis - Entwicklung eines Systems zur Analyse und Visualisierung der Muskelaktivit ̈at beim Bankdru ̈cken mithilfe von EMG-Sensoren.
+#### "MyoVis - Entwicklung eines Systems zur Analyse und Visualisierung der Muskelaktivität beim Bankdrücken mithilfe von EMG-Sensoren."
